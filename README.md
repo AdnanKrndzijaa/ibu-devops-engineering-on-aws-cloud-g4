@@ -14,8 +14,8 @@
 - In first phase, we created a diagram and estimated costs for AWS services on a monthly and annual basis. On the diagram you can see how we planned our project to look like, and in the end we did everything that way. 
 - We divided the system into two availability zones (us-east-1a & us-east-1b) and did a part of the work in each one, so that in the end we could combine it all and get a project that as a whole is fully functional.
 
-SLIKA DIAGRAM I COST
 ![image](https://github.com/AdnanKrndzijaa/ibu-devops-engineering-on-aws-cloud-group-4/assets/92021913/4c50fbd4-a856-4dc6-8441-63985a1c27cd)
+![image](https://github.com/AdnanKrndzijaa/ibu-devops-engineering-on-aws-cloud-group-4/assets/92021913/834940bc-f1b9-4b35-9369-8111db6005bc)
 
 
 ### Phase 2
@@ -23,8 +23,6 @@ SLIKA DIAGRAM I COST
 - We used a script with code from the AWS Academy course and used it when creating a new instance (Group4 PublicInstance). This instance was created for the website together with the database, so it was necessary to use a Session Manager to successfully bring everything together and work.
 - We have successfully created a virtual machine using EC2 Instance, using Ubuntu Amazon Machine Image.
 - Then we tested the CRUD operations on our website and found that everything works correctly (adding, deleting, updating and listing data).
-
-NEKE SLIKE
 
 ### Phase 3
 - Given that we already created the necessary 2 private subnets in the previous phase (each for one availability zone), we moved on to creating a new instance (Phase3Instance) for which we used a new script without a predefined database, and using the LabInstanceProfile IAM role. 
