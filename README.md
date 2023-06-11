@@ -7,7 +7,7 @@
 
 ## Repository description
 - There are two folders on the GitHub repository (resources and docs). The application code is in the resources folder, and all the documentation required for the project is in the docs folder.
-- The documentation includes a README.md file in which everything we did on the project is explained, an estimate of costs on a monthly and annual level, including the necessary services in AWS, and an architectural diagram of the project.
+- The documentation includes an estimate of costs on a monthly and annual level, including the necessary services in AWS, an architectural diagram of the project, and all scripts we used for implementation of the project.
 
 ## Project description (University Website)
 ### Phase 1
